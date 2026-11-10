@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Diamond SPA — массаж, сауна, хаммам. Ташкент, круглосуточно</title>
+<meta name="description" content="Diamond SPA в Ташкенте: более 20 видов массажа, финская сауна, кедровая бочка, хаммам и бассейн. Три филиала, работаем 24/7.">
+<meta name="theme-color" content="#0B2A33">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%230B2A33%22/%3E%3Ctext x=%2216%22 y=%2222%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23ECEFEA%22 font-family=%22serif%22%3ED%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Tenor+Sans&display=swap&subset=cyrillic,latin-ext" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#picker" data-i18n="skip">К подбору программы</a>
+
+<header class="top" id="top">
+  <a class="mark" href="#hero" aria-label="Diamond SPA">DIAMOND<span>SPA</span></a>
+  <div class="top__clock" aria-live="off"><i class="dot" aria-hidden="true"></i><span data-i18n="clockLabel">Ташкент</span>&nbsp;<b class="js-time">--:--</b><span class="top__open" data-i18n="openNow">открыто</span></div>
+  <nav class="top__nav" aria-label="Навигация">
+    <a href="#steam" data-i18n="navSteam">Пар и вода</a>
+    <a href="#massage" data-i18n="navMassage">Массаж</a>
+    <a href="#branches" data-i18n="navBranches">Филиалы</a>
+  </nav>
+  <div class="lang" role="group" aria-label="Язык / Til">
+    <button type="button" data-lang="ru" aria-pressed="true">RU</button>
+    <button type="button" data-lang="uz" aria-pressed="false">UZ</button>
+  </div>
+  <a class="top__call" href="tel:+998930815555"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg><span>93 081 55 55</span></a>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero__text">
+    <h1 class="hero__title"><span data-i18n="heroA">В Ташкенте</span> <span class="js-time hero__time">--:--</span>.<br><span data-i18n="heroB">Мы открыты — как и всегда.</span></h1>
+    <p class="hero__lead" data-i18n="heroLead">Больше 20 видов массажа, финская сауна и кедровая бочка, хаммам и бассейн. Три филиала, круглосуточно и без выходных.</p>
+    <div class="hero__cta">
+      <a class="btn btn--solid" href="#picker" data-i18n="ctaPick">Подобрать программу</a>
+      <a class="btn btn--line" href="tel:+998930815555" data-i18n="ctaCall">Позвонить</a>
+    </div>
+    <ul class="hero__branches" aria-label="Филиалы">
+      <li><a href="#branches" data-branch-link="minor"><i class="dot"></i><span data-i18n="bMinor">Минор</span></a></li>
+      <li><a href="#branches" data-branch-link="mirobod"><i class="dot"></i><span data-i18n="bMirobod">Мирабад</span></a></li>
+      <li><a href="#branches" data-branch-link="novza"><i class="dot"></i><span data-i18n="bNovza">Новза</span></a></li>
+    </ul>
+  </div>
+  <figure class="hero__arch" id="heroArch">
+    <video class="hero__video" id="heroVideo" src="media/v/Da5flpBMFW5.mp4" poster="media/vp/Da5flpBMFW5_5.jpg" muted playsinline loop preload="none" crossorigin="anonymous" aria-hidden="true"></video>
+    <canvas class="hero__gl" id="heroGL" aria-hidden="true"></canvas>
+    <figcaption class="hero__hint" data-i18n="heroHint">Коснитесь кадра — по нему пойдёт волна</figcaption>
+  </figure>
+</section>
+
+<!-- STEAM & WATER -->
+<section class="steam" id="steam" aria-labelledby="steamTitle">
+  <div class="steam__pin">
+    <canvas class="steam__gl" id="steamGL" aria-hidden="true"></canvas>
+    <div class="steam__fallback" aria-hidden="true">
+      <img src="media/p/DdwD6uwsmZI.jpg" alt="" loading="lazy">
+      <img src="media/p/DaLL5vPsbMr.jpg" alt="" loading="lazy">
+      <img src="media/vp/DYuS-m4MJ5i_1.jpg" alt="" loading="lazy">
+      <img src="media/p/DXmTYY6jBxz.jpg" alt="" loading="lazy">
+    </div>
+    <div class="steam__copy">
+      <h2 id="steamTitle" class="steam__title" data-i18n="steamTitle">Пар и вода</h2>
+      <ol class="steam__list">
+        <li class="is-on"><h3 data-i18n="s1t">Финская сауна</h3><p data-i18n="s1p">Сухой жар деревянной парной. Прогреться перед массажем — или просто посидеть в тишине после долгого дня.</p></li>
+        <li><h3 data-i18n="s2t">Кедровая бочка</h3><p data-i18n="s2p">Мини-парная из кедра: сидите внутри, голова снаружи. Тело прогревается мягко, дышится легко.</p></li>
+        <li><h3 data-i18n="s3t">Турецкий хаммам</h3><p data-i18n="s3p">Мягкое тепло хаммама разгоняет кровь, и тело готово к массажу. Здесь же — пилинг с кесе.</p></li>
+        <li><h3 data-i18n="s4t">Бассейн</h3><p data-i18n="s4p">После пара — прохладная вода. Перепад температур, который хорошо знаком любителям сауны.</p></li>
+      </ol>
+      <p class="steam__note" data-i18n="steamNote">Сауна, кедровая бочка, хаммам и бассейн — на Миноре. Что есть в других филиалах, уточняйте по телефону.</p>
+    </div>
+    <div class="steam__progress" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  </div>
+</section>
+
+<!-- MASSAGE RING -->
+<section class="massage" id="massage" aria-labelledby="massageTitle">
+  <div class="massage__head">
+    <h2 id="massageTitle" data-i18n="massageTitle">Массаж</h2>
+    <p data-i18n="massageLead">Больше двадцати видов. Здесь — те, что мастера Diamond показывают в своих видео. Покрутите кольцо или выберите, чего хочется.</p>
+  </div>
+  <div class="goals" role="group" aria-label="Цель" id="goalChips">
+    <button type="button" data-goal="all" aria-pressed="true" data-i18n="gAll">Все</button>
+    <button type="button" data-goal="relax" aria-pressed="false" data-i18n="gRelax">Расслабиться</button>
+    <button type="button" data-goal="muscle" aria-pressed="false" data-i18n="gMuscle">Спина и мышцы</button>
+    <button type="button" data-goal="stress" aria-pressed="false" data-i18n="gStress">Уйти от стресса</button>
+    <button type="button" data-goal="skin" aria-pressed="false" data-i18n="gSkin">Кожа и тонус</button>
+  </div>
+  <div class="ring" id="ring" tabindex="0" aria-roledescription="carousel" aria-label="Программы массажа">
+    <div class="ring__stage" id="ringStage"></div>
+    <button class="ring__arrow ring__arrow--prev" type="button" id="ringPrev" aria-label="Назад"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <button class="ring__arrow ring__arrow--next" type="button" id="ringNext" aria-label="Вперёд"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+  </div>
+  <div class="detail" id="detail" aria-live="polite">
+    <div class="detail__text">
+      <h3 class="detail__name" id="detailName"></h3>
+      <p class="detail__desc" id="detailDesc"></p>
+      <p class="detail__src" id="detailSrc"></p>
+    </div>
+    <button type="button" class="btn btn--solid detail__add" id="detailAdd"></button>
+  </div>
+</section>
+
+<!-- PICKER -->
+<section class="picker" id="picker" aria-labelledby="pickerTitle">
+  <div class="picker__head">
+    <h2 id="pickerTitle" data-i18n="pickerTitle">Подобрать программу</h2>
+    <p data-i18n="pickerLead">Отметьте, чего хочется, — мы соберём сообщение для администратора выбранного филиала. Стоимость и свободное время он подскажет сразу.</p>
+  </div>
+  <div class="picker__grid">
+    <form class="steps" id="pickForm" onsubmit="return false">
+      <fieldset class="step">
+        <legend><b>1</b><span data-i18n="st1">Чего хочется</span></legend>
+        <div class="chips" data-field="goal">
+          <button type="button" data-v="relax" data-i18n="gRelax">Расслабиться</button>
+          <button type="button" data-v="muscle" data-i18n="gMuscle">Спина и мышцы</button>
+          <button type="button" data-v="stress" data-i18n="gStress">Уйти от стресса</button>
+          <button type="button" data-v="skin" data-i18n="gSkin">Кожа и тонус</button>
+        </div>
+      </fieldset>
+      <fieldset class="step">
+        <legend><b>2</b><span data-i18n="st2">Массаж</span></legend>
+        <p class="step__hint" data-i18n="st2hint">Подходит под вашу цель — можно выбрать несколько или оставить выбор мастеру.</p>
+        <div class="chips chips--multi" id="progChips"></div>
+      </fieldset>
+      <fieldset class="step">
+        <legend><b>3</b><span data-i18n="st3">Пар и вода</span></legend>
+        <div class="chips chips--multi" data-field="extras">
+          <button type="button" data-v="sauna" data-i18n="s1t">Финская сауна</button>
+          <button type="button" data-v="barrel" data-i18n="s2t">Кедровая бочка</button>
+          <button type="button" data-v="hammam" data-i18n="s3t">Турецкий хаммам</button>
+          <button type="button" data-v="pool" data-i18n="s4t">Бассейн</button>
+        </div>
+        <p class="step__hint step__hint--warn" id="extrasNote" hidden data-i18n="extrasNote">В этом филиале набор зон уточнит администратор.</p>
+      </fieldset>
+      <fieldset class="step">
+        <legend><b>4</b><span data-i18n="st4">Когда</span></legend>
+        <div class="chips" data-field="when">
+          <button type="button" data-v="now" data-i18n="wNow">Сейчас</button>
+          <button type="button" data-v="evening" data-i18n="wEvening">Сегодня вечером</button>
+          <button type="button" data-v="night" data-i18n="wNight">Сегодня ночью</button>
+          <button type="button" data-v="time" data-i18n="wTime">Ко времени</button>
+        </div>
+        <label class="timefield" id="timeField" hidden><span data-i18n="wTimeLabel">Дата и время</span><input type="datetime-local" id="timeInput"></label>
+      </fieldset>
+      <fieldset class="step">
+        <legend><b>5</b><span data-i18n="st5">Сколько гостей</span></legend>
+        <div class="counter">
+          <button type="button" id="gMinus" aria-label="−">−</button>
+          <output id="guests">1</output>
+          <button type="button" id="gPlus" aria-label="+">+</button>
+        </div>
+      </fieldset>
+      <fieldset class="step">
+        <legend><b>6</b><span data-i18n="st6">Филиал</span></legend>
+        <div class="branchpick" data-field="branch" id="branchPick"></div>
+      </fieldset>
+    </form>
+
+    <aside class="note" aria-labelledby="noteTitle">
+      <div class="note__paper">
+        <h3 id="noteTitle" data-i18n="noteTitle">Ваше сообщение</h3>
+        <pre class="note__text" id="noteText"></pre>
+      </div>
+      <div class="note__actions">
+        <a class="btn btn--solid" id="actCall" href="tel:+998930815555"><span data-i18n="actCall">Позвонить в филиал</span></a>
+        <button type="button" class="btn btn--line" id="actCopy" data-i18n="actCopy">Скопировать текст</button>
+        <button type="button" class="btn btn--line" id="actDirect" data-i18n="actDirect">Написать в Instagram</button>
+      </div>
+      <p class="note__fine" data-i18n="noteFine">Цены и длительность сеансов на сайте не указаны — администратор назовёт их по телефону или в Direct.</p>
+    </aside>
+  </div>
+</section>
+
+<!-- BRANCHES -->
+<section class="branches" id="branches" aria-labelledby="branchesTitle">
+  <div class="branches__head">
+    <h2 id="branchesTitle" data-i18n="branchesTitle">Три филиала. Все открыты сейчас.</h2>
+    <p data-i18n="branchesLead">Круглосуточно, без выходных. Выберите ближайший — и звоните в любое время.</p>
+  </div>
+  <div class="branches__list" id="branchList"></div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="foot__mark">DIAMOND<span>SPA</span></div>
+  <p data-i18n="footLine">Массаж, сауна, хаммам и бассейн в Ташкенте. 24/7.</p>
+  <p class="foot__links"><a href="https://www.instagram.com/diamondspa.uz/" target="_blank" rel="noopener">Instagram @diamondspa.uz</a> <a href="tel:+998930815555">+998 93 081 55 55</a></p>
+  <p class="foot__concept" data-i18n="concept">Концепт сайта · Lumagen</p>
+</footer>
+
+<div class="mbar" id="mbar">
+  <a href="tel:+998930815555" class="mbar__call" data-i18n="ctaCall">Позвонить</a>
+  <a href="#picker" class="mbar__pick" data-i18n="ctaPick">Подобрать программу</a>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="app.js"></script>
+<script type="module" src="gl.js"></script>
+</body>
+</html>
